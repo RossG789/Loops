@@ -1,4 +1,4 @@
-// for (let i = 0; i < 5; i++) {
+// for (let i = 0; i < 20; i++) {
 //   console.log("Iteration", i);
 // }
 
@@ -24,17 +24,29 @@
 //   console.log(favouriteFood[i]);
 // }
 
-let array = [1, 2, 3, 4];
-let array2 = ["string", "string2", "string3"];
-let array3 = ["boom", "bop", "pow"];
+// let array = [1, 2, 3, 4];
+// let array2 = ["string", "string2", "string3"];
+// let array3 = ["boom", "bop", "pow"];
 
-function findElement(index1, index2, index3) {
-  let cherryBlossom = array[index1];
-  let lillies = array2[index2];
-  let daisies = array3[index3];
-  return [cherryBlossom, lillies, daisies];
+// function findElement(index1, index2, index3) {
+//   let cherryBlossom = array[index1];
+//   let lillies = array2[index2];
+//   let daisies = array3[index3];
+//   return [cherryBlossom, lillies, daisies];
+// }
+
+// // findElement(0, 2, 2);
+
+// console.log(findElement(3, 0, 2));
+
+let favouriteAnimals = ["Lions", "Tigers", "Bears", "Giraffes"];
+
+for (let index = 0; index < favouriteAnimals.length; index++) {
+  console.log(favouriteAnimals[index]);
 }
 
-findElement(0, 2, 2);
+let favouriteColours = ["Teal", "Green", "Mauve", "Fucia"];
 
-console.log(findElement(0, 2, 2));
+for (let index = 0; index < favouriteColours.length; index++) {
+  console.log(favouriteColours[index]);
+}
